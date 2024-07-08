@@ -1,0 +1,1210 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello!",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "bye",
+        "patterns": ["Bye", "goodbye!", "gottogo", "gtg"],
+        "responses":["Bye! Have a nice day.", "Come back soon!", "Bye"]
+      },
+      {
+        "tag": "week",
+        "patterns": ["How many days do we have in a week?", "Days in a week?", "name all the days in a week?", "explain all days in a week?", "give me all the days present in a week?"],
+        "responses":["Seven (Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday)"]
+      },
+      {
+        "tag": "year",
+        "patterns":["How many days are there in a normal year?", "days in a normal year?"],
+        "responses":["365"]
+      },
+      {
+        "tag": "leap_year",
+        "patterns": ["How many days are there in a leap year?", "days in a leap year?"],
+        "responses":["366"]
+      },
+      {
+        "tag": "rainbow",
+        "patterns":["How many colors are there in a rainbow?", "colors of rainbow?", "How many colors are there in a rainbow?", "colors of rainbow?", "colors in rainbow?"],
+        "responses":["Seven (Violet, Indigo, Blue, Green, Yellow, Orange, Red)"]
+      },
+      {
+        "tag": "camel",
+        "patterns":["Which animal is known as the Ship of the Desert?", "which animal can survive a week without water?"],
+        "responses":["Camel"]
+      },
+      {
+        "tag": "alphabet",
+        "patterns":["How many letters are there in the English alphabet?", "Letters in english alphabet?"],
+        "responses":["26 (A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z)"]
+      },
+      {
+        "tag": "consonants",
+        "patterns":["How many consonants are there in the English alphabet?", "consonants in english alphabet?"],
+        "responses":["21 (B, C, D, F, G, H, J, K, L, M, N, P, Q, R, S, T, V, W, X, Y, Z)"]
+      },
+      {
+        "tag": "vowels",
+        "patterns":["How many vowels are there in the English alphabet?", "vowels in english alphabet?"],
+        "responses":["5 (A, E, I, O, U)"]
+      },
+      {
+        "tag": "traingle_sides",
+        "patterns":["How many sides are there in a triangle?", "sides of triangle?"],
+        "responses":["3"]
+      },
+      {
+        "tag": "king_of_jungle",
+        "patterns":["Which animal is called King of Jungle?", "king of the jungle?"],
+        "responses":["Lion"]
+      },
+      {
+        "tag": "primary_colors",
+        "patterns":["How many primary colors are there?", "primary colors?"],
+        "responses":["Three (Red, Yellow, Blue)"]
+      },
+      {
+        "tag": "largest_animal",
+        "patterns":["Which is the largest animal in the world?", "largest animal?"],
+        "responses":["Blue Whale"]
+      },
+      {
+        "tag": "tallest_animal",
+        "patterns":["Which is the tallest animal on the earth?", "tallest animal?"],
+        "responses":["Giraffe"]
+      },
+      {
+        "tag": "festival_of_colors",
+        "patterns":["Which festival is known as the festival of colors?", "festival of colors?"],
+        "responses":["Holi"]
+      },
+      {
+          "tag": "festival_of_light",
+          "patterns": ["Which festival is called the festival of light?"],
+          "responses": ["Diwali"]
+      },
+      {
+          "tag": "largest_bird_eggs",
+          "patterns": ["What type of bird lays the largest eggs?", "which bird lays largest eggs?", "largest eggs"],
+          "responses": ["Ostrich"]
+      },
+      {
+          "tag": "festival_of_flowers",
+          "patterns": ["Which festival is known as the Festival of flowers?", "festival of flowers?"],
+          "responses": ["Onam"]
+      },
+      {
+          "tag": "sunrise_direction",
+          "patterns": ["In which direction does the sunrise?", "sunrise in which direction?", "sunrises from?"],
+          "responses": ["East"]
+      },
+      {
+          "tag": "largest_flower",
+          "patterns": ["Which is the worlds largest flower?", "largest flower?"],
+          "responses": ["Rafflesia"]
+      },
+      {
+          "tag": "hours_in_two_days",
+          "patterns": ["How many hours are there in two days?", "hours in two days?"],
+          "responses": ["48 hours (24+24)"]
+        },
+        {
+          "tag": "months_with_31_days",
+          "patterns": ["How many months of the year have 31 days?", "moths with 31 days?"],
+          "responses": ["7 (January, March, May, July, August, October and December)"]
+        },
+        {
+          "tag": "weeks_in_a_year",
+          "patterns": ["How many weeks are there in one year?", "total week in a year?", "number of weeks in a year?"],
+          "responses": ["52"]
+        },
+        {
+          "tag": "human_bones",
+          "patterns": ["How many bones does an adult human have?", "bones in a adult human body?"],
+          "responses": ["206"]
+        },
+        {
+          "tag": "moon_walk",
+          "patterns": ["Who was the first man to walk on the moon?", "first person to land on moon?", "first person to walk on moon?"],
+          "responses": ["Neil Armstrong"]
+        },
+        {
+          "tag": "millimeters_in_1cm",
+          "patterns": ["How many millimeters are there in 1cm?", "1cm = how many milimeters?"],
+          "responses": ["10"]
+        },
+        {
+          "tag": "nearest_star",
+          "patterns": ["Which is the nearest star to planet earth?", "Largest star in our galaxy?"],
+          "responses": ["Sun"]
+        },
+        {
+          "tag": "longest_river",
+          "patterns": ["Which is the longest river on the earth?", "longest river?"],
+          "responses": ["Nile"]
+        },
+        {
+          "tag": "energy_source",
+          "patterns": ["Which is the principal source of energy for earth?", "energy source of earth?"],
+          "responses": ["Sun"]
+        },
+        {
+          "tag": "number_of_lungs",
+          "patterns": ["How many lungs does the human body have?"],
+          "responses": ["Two"]
+        },
+        {
+          "tag": "taste_of_water",
+          "patterns": ["What is the standard taste of the water?", "taste of water?"],
+          "responses": ["Water is tasteless"]
+        },
+        {
+          "tag": "tallest_mountain",
+          "patterns": ["Which is the tallest mountain in the world?", "tallest mountain?"],
+          "responses": ["Mount Everest"]
+        },
+        {
+          "tag": "fastest_animal_on_land",
+          "patterns": ["Which is the fastest animal on the land?", "fastest animal?"],
+          "responses": ["Cheetah"]
+        },
+        {
+          "tag": "dark_continent",
+          "patterns": ["Which continent is known as Dark continent?", "Dark continent?"],
+          "responses": ["Africa"]
+        },
+        {
+          "tag": "red_planet",
+          "patterns": ["Which planet is known as the Red Planet?", "red planet?"],
+          "responses": ["Mars"]
+        },
+        {
+          "tag": "sensitive_organ",
+          "patterns": ["Which is the most sensitive organ in our body?", "sensitive organ in human body?"],
+          "responses": ["Skin"]
+        },
+        {
+          "tag": "largest_ocean",
+          "patterns": ["Which is the largest ocean in the world?", "largest ocean?"],
+          "responses": ["Pacific Ocean"]
+        },
+        {
+          "tag": "world_environment_day",
+          "patterns": ["Which day is observed as World Environment Day?"],
+          "responses": ["5-June"]
+        },
+        {
+          "tag": "years_in_a_century",
+          "patterns": ["How many years are there in a century?"],
+          "responses": ["One Hundred"]
+        },
+        {
+          "tag": "largest_country",
+          "patterns": ["Which is the largest country in the world?", "largest country in area?"],
+          "responses": ["Russia"]
+        },
+        {
+          "tag": "computer_invention",
+          "patterns": ["Who invented the Computer?", "inventor of computer?"],
+          "responses": ["Charles Babbage"]
+        },
+        {
+          "tag": "cricket_team_players",
+          "patterns": ["How many players are there in a cricket team?", "players in a cricket team?"],
+          "responses": ["11"]
+        },
+        {
+          "tag": "world_literacy_day",
+          "patterns": ["Which day is observed as World Literacy Day?"],
+          "responses": ["8-September"]
+        },
+        {
+          "tag": "radio_inventor",
+          "patterns": ["Who is the inventor of Radio?", "inventor of radio?"],
+          "responses": ["Marconi"]
+        },
+        {
+          "tag": "roof_of_the_world",
+          "patterns": ["Which place is known as the roof of the world?", "roof of the world?"],
+          "responses": ["Tibet"]
+        },
+        {
+          "tag": "teeth_in_an_adult",
+          "patterns": ["How many teeth does a healthy adult have including the wisdom teeth?"],
+          "responses": ["32"]
+        },
+        {
+          "tag": "abundant_gas",
+          "patterns": ["Which gas is most abundant in the earth’s atmosphere?"],
+          "responses": ["Nitrogen"]
+        },
+        {
+          "tag": "global_population",
+          "patterns": ["How many people are there in the world?"],
+          "responses": ["Over 7 billion"]
+        },
+        {
+          "tag": "most_countries",
+          "patterns": ["Which is the continent with the most number of countries?"],
+          "responses": ["Africa"]
+        },
+        {
+          "tag": "common_disease",
+          "patterns": ["Which is the most common non-contagious disease in the world?"],
+          "responses": ["Tooth Decay"]
+        },
+        {
+          "tag": "violin_strings",
+          "patterns": ["How many strings does a violin have?"],
+          "responses": ["Four"]
+        },
+        {
+          "tag": "solar_system_planets",
+          "patterns": ["How many planets are there in our solar system?"],
+          "responses": ["8"]
+        },
+        {
+          "tag": "hottest_continent",
+          "patterns": ["Which is the hottest continent on Earth?"],
+          "responses": ["Africa"]
+        },
+        {
+          "tag": "smallest_continent",
+          "patterns": ["Which is the smallest continent in the world?"],
+          "responses": ["Australia"]
+        },
+        {
+          "tag": "years_in_a_millennium",
+          "patterns": ["How many years are there in a millennium?"],
+          "responses": ["1000"]
+        },
+        {
+          "tag": "kangaroo_home",
+          "patterns": ["Which country is home to the kangaroo?"],
+          "responses": ["Australia"]
+        },
+        {
+          "tag": "mona_lisa_painter",
+          "patterns": ["Who painted the Mona Lisa?"],
+          "responses": ["Leonardo da Vinci"]
+        },
+        {
+          "tag": "telephone_inventor",
+          "patterns": ["Who invented the telephone?"],
+          "responses": ["Alexander Graham Bell"]
+        },
+        {
+          "tag": "www_prefix",
+          "patterns": ["What does the Internet prefix WWW stand for?"],
+          "responses": ["World Wide Web"]
+        },
+        {
+          "tag": "ocean_coverage",
+          "patterns": ["How much of Earth’s surface is covered by ocean?"],
+          "responses": ["71%"]
+        },
+        {
+          "tag": "penicillin_discovery",
+          "patterns": ["Who discovered Penicillin in 1928?"],
+          "responses": ["Alexander Fleming"]
+        },
+        {
+          "tag": "stars_in_american_flag",
+          "patterns": ["How many stars are there in the American flag?"],
+          "responses": ["50"]
+        },
+        {
+          "tag": "five_sided_shape",
+          "patterns": ["What do you call a type of shape that has five sides?"],
+          "responses": ["Pentagon"]
+        },
+        {
+          "tag": "anti_clockwise_direction",
+          "patterns": ["Which way is anti-clockwise, left or right?"],
+          "responses": ["Left"]
+        },
+        {
+          "tag": "isosceles_triangle_sides",
+          "patterns": ["How many equal sides does an isosceles triangle have?"],
+          "responses": ["2"]
+        },
+        {
+          "tag": "coldest_location",
+          "patterns": ["Which is the coldest location in the earth?"],
+          "responses": ["East Antarctica"]
+        },
+        {
+          "tag": "electricity_discovery",
+          "patterns": ["Who discovered electricity?"],
+          "responses": ["Benjamin Franklin"]
+        },
+        {
+          "tag": "widely_spoken_language",
+          "patterns": ["Which is the most widely spoken language in the world?"],
+          "responses": ["Mandarin (Chinese)"]
+        },
+        {
+          "tag": "continuously_growing_body_parts",
+          "patterns": ["Which two parts of the body continue to grow for your entire life?"],
+          "responses": ["Nose and Ears"]
+        },
+        {
+          "tag": "largest_democracy",
+          "patterns": ["The largest ‘Democracy’ in the world?"],
+          "responses": ["India"]
+        },
+        {
+          "tag": "television_inventor",
+          "patterns": ["Who is the inventor of Television?"],
+          "responses": ["John Logie Baird"]
+        },
+        {
+          "tag": "largest_plateau",
+          "patterns": ["Which is the largest plateau in the world?"],
+          "responses": ["Tibetan Plateau"]
+        },
+        {
+          "tag": "blood_pressure_measurement",
+          "patterns": ["Which is the instrument used to measure Blood pressure?"],
+          "responses": ["Sphygmomanometer"]
+        },
+        {
+          "tag": "peace_symbol_color",
+          "patterns": ["What color symbolizes peace?"],
+          "responses": ["White"]
+        },
+        {
+          "tag": "microsoft_founder",
+          "patterns": ["Who is the founder of Microsoft?"],
+          "responses": ["Bill Gates"]
+        },
+        {
+          "tag": "world_war_I_start",
+          "patterns": ["During which year did World War I begin?"],
+          "responses": ["1914"]
+        },
+        {
+          "tag": "cricket_world_cups_india",
+          "patterns": ["How many Cricket world cups does India have?"],
+          "responses": ["2"]
+        },
+        {
+          "tag": "global_warming_gas",
+          "patterns": ["Global warming is caused by the excess of which type of gas?"],
+          "responses": ["Carbon dioxide"]
+        },
+        {
+          "tag": "cards_in_a_pack",
+          "patterns": ["How many cards are there in a complete pack of cards?"],
+          "responses": ["52"]
+        },
+        {
+          "tag": "largest_rain_forest",
+          "patterns": ["What is the name of the biggest rain forest in the world?"],
+          "responses": ["The Amazon"]
+        },
+        {
+          "tag": "chocolate_nation",
+          "patterns": ["Which African nation is famous for chocolate?"],
+          "responses": ["Ghana"]
+        },
+        {
+          "tag": "brain_volume_component",
+          "patterns": ["What makes up (approx ) 80% of our brain’s volume?"],
+          "responses": ["Water"]
+        },
+        {
+          "tag": "wind_speed_measurement",
+          "patterns": ["Which instrument is used for measuring wind speed?"],
+          "responses": ["Anemometer"]
+        },
+        {
+          "tag": "stars_and_stripes_flag",
+          "patterns": ["‘Stars and Stripes’ is the nickname of the flag of which country?"],
+          "responses": ["United States of America"]
+        },
+        {
+          "tag": "binary_language",
+          "patterns": ["Which language is used by the computer to process data?"],
+          "responses": ["Binary language"]
+        },
+        {
+          "tag": "land_or_water_coverage",
+          "patterns": ["What covers approximately 71% of the Earth’s surface: Land or water?"],
+          "responses": ["Water"]
+        },
+        {
+          "tag": "hardest_substance",
+          "patterns": ["Which is the hardest substance available on earth?"],
+          "responses": ["Diamond"]
+        },
+        {
+          "tag": "largest_desert",
+          "patterns": ["Which is the biggest desert in the world?"],
+          "responses": ["Sahara desert"]
+        },
+        {
+          "tag": "statue_of_liberty_gifter",
+          "patterns": ["Which country gifted The Statue of Liberty to the United States?"],
+          "responses": ["France"]
+        },
+        {
+          "tag": "god_of_music",
+          "patterns": ["What is the name of the Greek God of music?"],
+          "responses": ["Apollo"]
+        },
+        {
+          "tag": "sim_card",
+          "patterns": ["What does the “SIM” in the SIM card stand for?"],
+          "responses": ["Subscriber Identity Module"]
+      },
+      {
+          "tag": "first_element",
+          "patterns": ["Which is the first element on the periodic table of elements?"],
+          "responses": ["Hydrogen"]
+      },
+        {
+            "tag": "longest_constitution",
+            "patterns": ["Which is the longest written Constitution in the world?"],
+            "responses": ["India"]
+        },
+        {
+            "tag": "largest_joint",
+            "patterns": ["What is the largest joint in the human body?"],
+            "responses": ["Knee"]
+        },
+        {
+            "tag": "smallest_bone",
+            "patterns": ["Which is the smallest bone in the human body?"],
+            "responses": ["Stapes (Ear bone)"]
+        },
+        {
+            "tag": "atmospheric_pressure_instrument",
+            "patterns": ["Which instrument is used to measure Atmospheric Pressure?"],
+            "responses": ["Barometer"]
+        },
+        {
+            "tag": "largest_continent",
+            "patterns": ["Which is the largest continent in the world?"],
+            "responses": ["Asia"]
+        },
+        {
+            "tag": "electric_bulb_inventor",
+            "patterns": ["Who is the inventor of the electric Bulb?"],
+            "responses": ["Thomas Alva Edison"]
+        },
+        {
+            "tag": "nobel_prize_founder",
+            "patterns": ["On whose memory Nobel Prize is awarded?"],
+            "responses": ["Alfred Nobel"]
+        },
+        {
+            "tag": "first_woman_in_space",
+            "patterns": ["Who is the first woman to go to space?"],
+            "responses": ["Valentina Tereshkova"]
+        },
+        {
+            "tag": "chemical_formula",
+            "patterns": ["What is HCl?"],
+            "responses": ["Hydrochloric acid"]
+        },
+        {
+            "tag": "china_currency",
+            "patterns": ["What is the currency of China?"],
+            "responses": ["Renminbi"]
+        },
+          {
+              "tag": "book_place",
+              "patterns": ["What is the place where books are kept called?"],
+              "responses": ["Library"]
+          },
+          {
+              "tag": "mathematics_digits",
+              "patterns": ["How many digits are there in Mathematics?"],
+              "responses": ["Infinite"]
+          },
+          {
+              "tag": "first_prime_minister",
+              "patterns": ["Who is the first Prime Minister of India?"],
+              "responses": ["Jawaharlal Nehru"]
+          },
+          {
+              "tag": "dozen_bananas",
+              "patterns": ["How many bananas will there be in a dozen banana?"],
+              "responses": ["12"]
+          },
+          {
+              "tag": "mickey_mouse",
+              "patterns": ["Who is Mickey Mouse?"],
+              "responses": ["Cartoon Character"]
+          },
+          {
+              "tag": "god_of_small_things_author",
+              "patterns": ["Who is the author of 'God of Small Things'?"],
+              "responses": ["Arundhati Roy"]
+          },
+          {
+              "tag": "value_of_pie",
+              "patterns": ["What is the value of Pie?"],
+              "responses": ["3.14 (22/7)"]
+          },
+          {
+              "tag": "earth_position",
+              "patterns": ["What is the position of Earth in our Solar system?"],
+              "responses": ["Third"]
+          },
+          {
+              "tag": "biggest_continent",
+              "patterns": ["Which is the biggest continent?"],
+              "responses": ["Asia"]
+          },
+          {
+              "tag": "wonders_in_world",
+              "patterns": ["How many wonders do we have in the world?"],
+              "responses": ["Seven"]
+          },
+          {
+              "tag": "gravitation_concept",
+              "patterns": ["Who found the concept of 'Gravitation' for the first time?"],
+              "responses": ["Issac Newton"]
+          },
+          {
+              "tag": "julius_caesar_author",
+              "patterns": ["Who is the author of 'Julius Caesar'?"],
+              "responses": ["William Shakespeare"]
+          },
+          {
+              "tag": "un_day",
+              "patterns": ["When is UN day celebrated?"],
+              "responses": ["October 24"]
+          },
+          {
+              "tag": "constellations",
+              "patterns": ["What are constellations?"],
+              "responses": ["Group of stars"]
+          },
+          {
+              "tag": "blue_planet",
+              "patterns": ["Which planet is known as 'The Blue Planet'?"],
+              "responses": ["Earth"]
+          },
+          {
+              "tag": "dictionary_compiler",
+              "patterns": ["What is the person who compiles a dictionary called?"],
+              "responses": ["Lexicographer"]
+          },
+          {
+              "tag": "train_driver",
+              "patterns": ["What is the driver of a Train called?"],
+              "responses": ["Locopilot"]
+          },
+          {
+              "tag": "rbi_full_form",
+              "patterns": ["What is the full form of RBI?"],
+              "responses": ["Reserve Bank of India"]
+          },
+          {
+              "tag": "fear_of_darkness",
+              "patterns": ["What is the 'Fear of Darkness' called?"],
+              "responses": ["Nyctophobia"]
+          },
+          {
+              "tag": "capital_of_peru",
+              "patterns": ["What is the capital city of Peru?"],
+              "responses": ["Lima"]
+          },
+          {
+              "tag": "states_in_india",
+              "patterns": ["How many states are there in India?"],
+              "responses": ["29"]
+          },
+          {
+              "tag": "aeroplane_discoverer",
+              "patterns": ["Who discovered Aeroplane?"],
+              "responses": ["Wright Brothers"]
+          },
+          {
+              "tag": "universal_symbol_of_peace",
+              "patterns": ["Which bird is the universal symbol of Peace?"],
+              "responses": ["Dove"]
+          },
+          {
+              "tag": "cause_of_anemia",
+              "patterns": ["What causes Anemia?"],
+              "responses": ["By the deficiency of Iron"]
+          },
+          {
+              "tag": "chef_definition",
+              "patterns": ["Who is a 'Chef'?"],
+              "responses": ["A person who cooks food"]
+          },
+          {
+              "tag": "sky_color",
+              "patterns": ["What is the color of the sky?"],
+              "responses": ["Blue"]
+          },
+          {
+              "tag": "doctor_job",
+              "patterns": ["What is the job of a Doctor?"],
+              "responses": ["A Doctor treats sick people."]
+          },
+          {
+              "tag": "number_after_10",
+              "patterns": ["What comes after 10 and before 13?"],
+              "responses": ["12"]
+          },
+          {
+              "tag": "fish_habitat",
+              "patterns": ["Where does fish live?"],
+              "responses": ["In Water"]
+          },
+          {
+              "tag": "sun_description",
+              "patterns": ["What is sun?"],
+              "responses": ["Sun is a big ball of fire."]
+          },
+          {
+              "tag": "virat_kohli_identity",
+              "patterns": ["Who is Virat Kohli?"],
+              "responses": ["Indian Cricketer"]
+          },
+          {
+              "tag": "number_of_noses",
+              "patterns": ["How many noses do you have?"],
+              "responses": ["One"]
+          },
+          {
+              "tag": "mango_color",
+              "patterns": ["What is the color of Mango?"],
+              "responses": ["Yellow"]
+          },
+          {
+              "tag": "planet_we_live",
+              "patterns": ["In which planet do we live?"],
+              "responses": ["Earth"]
+          },
+          {
+              "tag": "cat_young_one",
+              "patterns": ["What is the young one of a cat called?"],
+              "responses": ["Kitten"]
+          },
+          {
+              "tag": "years_in_century",
+              "patterns": ["How many years are there in a century?"],
+              "responses": ["Hundred"]
+          },
+          {
+              "tag": "national_game_of_india",
+              "patterns": ["Which is the national game of India?"],
+              "responses": ["Hockey"]
+          },
+          {
+              "tag": "tv_full_form",
+              "patterns": ["What is the full form of TV?"],
+              "responses": ["Television"]
+          },
+          {
+              "tag": "math_calculation",
+              "patterns": ["Solve 27*0"],
+              "responses": ["Zero (Any number multiplied by zero gives zero as the answer)"]
+          },
+          {
+              "tag": "milk_sources",
+              "patterns": ["Which all animals give us milk?"],
+              "responses": ["Cow, goat and buffalo"]
+          },
+          {
+              "tag": "lion_home",
+              "patterns": ["What is the home of a lion called?"],
+              "responses": ["Den"]
+          },
+          {
+              "tag": "days_in_week",
+              "patterns": ["How many days are there in a week?"],
+              "responses": ["Seven"]
+          },
+          {
+              "tag": "money_deposit",
+              "patterns": ["Where do we deposit money?"],
+              "responses": ["Bank"]
+          },
+          {
+              "tag": "animal_keeping_place",
+              "patterns": ["What is the place where animals are kept called?"],
+              "responses": ["Zoo"]
+          },
+          {
+              "tag": "covid_description",
+              "patterns": ["What is COVID-19?"],
+              "responses": ["It is a deadly disease spread across the world during 2019 and 2020."]
+          },
+          {
+              "tag": "beri_beri_cause",
+              "patterns": ["What is Beri-Beri?"],
+              "responses": ["It is a disease caused due to the deficiency of Vitamin B"]
+          },
+          {
+              "tag": "coconut_source",
+              "patterns": ["Where do we get coconut from?"],
+              "responses": ["We get coconut from coconut Tree"]
+          },
+          {
+              "tag": "god_own_country",
+              "patterns": ["Which state in India is known as 'God's Own Country'?"],
+              "responses": ["Kerala"]
+          },
+          {
+              "tag": "plant_food_process",
+              "patterns": ["How do plants make food?"],
+              "responses": ["Plants make food through the process called Photosynthesis."]
+          },
+          {
+              "tag": "land_of_white_elephants",
+              "patterns": ["Which place is known as the 'Land of White Elephants'?"],
+              "responses": ["Thailand"]
+          },
+          {
+              "tag": "hockey_team_players",
+              "patterns": ["How many players are there in each side of a Hockey team?"],
+              "responses": ["11"]
+          },
+          {
+              "tag": "basketball_team_players",
+              "patterns": ["How many players are there in each side of a Basket Ball team?"],
+              "responses": ["5"]
+          },
+          {
+              "tag": "commonwealth_games_frequency",
+              "patterns": ["Commonwealth Games are held in every _ years"],
+              "responses": ["4 years"]
+          },
+          {
+              "tag": "grand_slam_tournaments",
+              "patterns": ["How many Grand Slam Tennis Tournaments are held every year?"],
+              "responses": ["4"]
+          },
+          {
+              "tag": "hat_trick_sport",
+              "patterns": ["In which sports, the term HAT-TRICK is used?"],
+              "responses": ["Cricket"]
+          },
+          {
+              "tag": "kho_kho_players",
+              "patterns": ["Number of players in one team of Kho Kho are"],
+              "responses": ["Nine"]
+          },
+          {
+              "tag": "eden_gardens_location",
+              "patterns": ["Eden Gardens cricket stadium is in –"],
+              "responses": ["Calcutta"]
+          },
+          {
+              "tag": "cricket_world_cup_2019_host",
+              "patterns": ["Which country will host Cricket World Cup 2019 –"],
+              "responses": ["England"]
+          },
+          {
+              "tag": "olympic_games_cancelled_year",
+              "patterns": ["In which year Olympic Games were cancelled because of World War I?"],
+              "responses": ["1916"]
+          },
+          {
+              "tag": "football_world_cup_2010_winner",
+              "patterns": ["Who was the winner of Football World Cup in 2010?"],
+              "responses": ["Spain"]
+          },
+          {
+              "tag": "badminton_origin",
+              "patterns": ["Where did the game of Badminton originate from?"],
+              "responses": ["Pune"]
+          },
+          {
+              "tag": "national_sports_day",
+              "patterns": ["When is national sports day of India celebrated?"],
+              "responses": ["22-Aug"]
+          },
+          {
+              "tag": "wimbledon_doubles_introduction_year",
+              "patterns": ["When was women’s and men’s doubles introduced in Wimbledon?"],
+              "responses": ["1884"]
+          },
+          {
+              "tag": "flying_sikh_of_india",
+              "patterns": ["Who among the following is known as 'Flying Sikh of India'"],
+              "responses": ["Milkha Singh"]
+          },
+          {
+              "tag": "olympic_medals_won_by_india_2012",
+              "patterns": ["Total Olympic medals won by India in 2012"],
+              "responses": ["Six"]
+          },
+          {
+              "tag": "indian_grand_prix_2011_driver",
+              "patterns": ["The only driver in Indian Grand Prix 2011 is"],
+              "responses": ["Alice Powell"]
+          },
+          {
+              "tag": "months_in_year",
+              "patterns": ["How many months are there in a year?"],
+              "responses": ["12"]
+          },
+          {
+              "tag": "days_in_week_2",
+              "patterns": ["How many days are there in a week?"],
+              "responses": ["7"]
+          },
+          {
+              "tag": "days_in_year",
+              "patterns": ["How many days are there in a year?"],
+              "responses": ["365"]
+          },
+          {
+              "tag": "number_after_15",
+              "patterns": ["Which number comes after 15?"],
+              "responses": ["16"]
+          },
+          {
+              "tag": "colors_in_rainbow",
+              "patterns": ["How many colours are there in a rainbow?"],
+              "responses": ["7"]
+          },
+          {
+              "tag": "ears_usage",
+              "patterns": ["We use our ears to ______."],
+              "responses": ["Hear"]
+          },
+          {
+              "tag": "day_after_tuesday",
+              "patterns": ["Name the day that comes after Tuesday?"],
+              "responses": ["Wednesday"]
+          },
+          {
+              "tag": "cow_legs",
+              "patterns": ["A cow has ____ legs."],
+              "responses": ["4"]
+          },
+          {
+              "tag": "human_breathing_gas",
+              "patterns": ["Which gas do humans need to breathe to live?"],
+              "responses": ["Oxygen"]
+          },
+          {
+              "tag": "month_after_october",
+              "patterns": ["Which month comes after October?"],
+              "responses": ["November"]
+          },
+          {
+              "tag": "zeroes_in_one_thousand",
+              "patterns": ["How many zeroes are there in one thousand?"],
+              "responses": ["Three"]
+          },
+          {
+              "tag": "number_of_hands",
+              "patterns": ["How many hands do you have?"],
+              "responses": ["2"]
+          },
+          {
+              "tag": "chewing_teeth",
+              "patterns": ["We chew food using our ____________."],
+              "responses": ["Teeth"]
+          },
+            {
+                "tag": "smell_organ",
+                "patterns": ["Which sense organ do you use to smell?"],
+                "responses": ["Nose"]
+            },
+            {
+                "tag": "plant_part_below_ground",
+                "patterns": ["Which part of the plant is brown and below the ground?"],
+                "responses": ["Roots"]
+            },
+            {
+                "tag": "plant_part_with_seeds",
+                "patterns": ["Which part of a plant has seeds?"],
+                "responses": ["Fruit"]
+            },
+            {
+                "tag": "plant_nutrient_soak",
+                "patterns": ["Which part of a plant soaks up nutrients and water from the soil?"],
+                "responses": ["Root"]
+            },
+            {
+                "tag": "bird_far_sight",
+                "patterns": ["Which bird has a far sight and turns its head all the way round?"],
+                "responses": ["Owl"]
+            },
+            {
+                "tag": "animal_eats_mice",
+                "patterns": ["Which animal eats mice?"],
+                "responses": ["20"]
+            },
+            {
+                "tag": "animal_wags_tail",
+                "patterns": ["Which animal wags its tail and lives in a kennel?"],
+                "responses": ["Dog"]
+            },
+            {
+                "tag": "animal_long_nose_trunk",
+                "patterns": ["Which animal has a long nose known as trunk?"],
+                "responses": ["Elephant"]
+            },
+            {
+                "tag": "animal_likes_honey",
+                "patterns": ["Which animal likes honey?"],
+                "responses": ["Bear"]
+            },
+            {
+                "tag": "cunning_animal",
+                "patterns": ["Name a cunning animal?"],
+                "responses": ["Fox"]
+            },
+            {
+                "tag": "animal_long_neck",
+                "patterns": ["Which animal has a long neck?"],
+                "responses": ["Giraffe"]
+            },
+            {
+                "tag": "animal_black_white_stripes",
+                "patterns": ["Which animal has black and white stripes on its body?"],
+                "responses": ["Zebra"]
+            },
+            {
+                "tag": "animal_gives_wool",
+                "patterns": ["Which animal gives us wool?"],
+                "responses": ["Sheep"]
+            },
+            {
+                "tag": "leap_year_february_days",
+                "patterns": ["February has _____ days in a leap year."],
+                "responses": ["29"]
+            },
+            {
+                "tag": "largest_river_island_in_asia",
+                "patterns": ["Which is the largest river island in Asia?"],
+                "responses": ["Majuli Island (Assam)"]
+            },
+            {
+                "tag": "shape_three_sides",
+                "patterns": ["Which shape has three sides?", "Name the shape with five sides?", "A shape with six sides is called ________.", "How many sides does an octagon have?"],
+                "responses": ["Triangle", "Pentagon", "Hexagon", "8"]
+            },
+            {
+                "tag": "weeks_in_a_year",
+                "patterns": ["How many weeks are there in a year?"],
+                "responses": ["52 Week"]
+            },
+            {
+                "tag": "months_in_a_year",
+                "patterns": ["There are ____ months in a year."],
+                "responses": ["12"]
+            },
+            {
+                "tag": "shape_five_sides",
+                "patterns": ["Name the shape with five sides?"],
+                "responses": ["Pentagon"]
+            },
+            {
+                "tag": "home_of_pig",
+                "patterns": ["Home of a pig is called ______."],
+                "responses": ["Sty"]
+            },
+            {
+                "tag": "largest_island_in_the_world",
+                "patterns": ["Name the largest island in the world?"],
+                "responses": ["Greenland"]
+            },
+            {
+                "tag": "largest_mammal_on_earth",
+                "patterns": ["Which is the largest mammal on Earth?"],
+                "responses": ["Blue Whale"]
+            },
+            {
+                "tag": "cinderella_story",
+                "patterns": ["What is the name of the story where Ella leaves her glass slipper while attending the royal ball?"],
+                "responses": ["Cinderella"]
+            },
+            {
+                "tag": "seven_dwarfs_cottage_story",
+                "patterns": ["Which fairy tale character meets seven dwarfs in a cottage?"],
+                "responses": ["Snow White"]
+            },
+            {
+                "tag": "rapunzel_story",
+                "patterns": ["Name the fairy tale character with long golden hair trapped in a tower?"],
+                "responses": ["Rapunzel"]
+            },
+            {
+                "tag": "aladdin_story",
+                "patterns": ["Name the fairy tale character, who is a poor thief and has a magic lamp?"],
+                "responses": ["Aladdin"]
+            },
+            {
+                "tag": "little_red_riding_hood_story",
+                "patterns": ["Which fairy tale character meets a Big Bad wolf while going to visit her grandmother in the woods?"],
+                "responses": ["Little Red Riding Hood"]
+            },
+            {
+                "tag": "alice_in_wonderland_story",
+                "patterns": ["Name the story in which a young girl falls through a rabbit hole, goes to a fantasy world and meets many strange characters?"],
+                "responses": ["Alice’s Adventures in Wonderland"]
+            },
+            {
+                "tag": "shape_seven_sides",
+                "patterns": ["Name the shape with seven sides?"],
+                "responses": ["Heptagon"]
+            },
+            {
+                "tag": "earth_shape",
+                "patterns": ["Planet Earth is shaped like a __________."],
+                "responses": ["Sphere"]
+            },
+            {
+                "tag": "shape_six_sides",
+                "patterns": ["A shape with six sides is called ________."],
+                "responses": ["Hexagon"]
+            },
+            {
+                "tag": "shape_ten_sides",
+                "patterns": ["A shape with ten sides is called ________."],
+                "responses": ["Decagon"]
+            },
+            {
+                "tag": "octagon_sides",
+                "patterns": ["How many sides does an octagon have?"],
+                "responses": ["8"]
+            },
+            {
+                "tag": "human_blood_color",
+                "patterns": ["What is the color of human blood?"],
+                "responses": ["Red"]
+            },
+            {
+                "tag": "color_symbolizes_peace",
+                "patterns": ["Which colour symbolizes peace?"],
+                "responses": ["White"]
+            },
+            {
+                "tag": "cotton_clothes_season",
+                "patterns": ["In which season do we use cotton clothes?"],
+                "responses": ["Summer"]
+            },
+            {
+                "tag": "cow_milk_color",
+                "patterns": ["The colour of cow’s milk is ________."],
+                "responses": ["White"]
+            },
+            {
+                "tag": "after_35",
+                "patterns": ["What comes after 35?"],
+                "responses": ["36"]
+            },
+            {
+                "tag": "elephant_tusks_material",
+                "patterns": ["The tusks of elephants are made of ______."],
+                "responses": ["Ivory"]
+            },
+            {
+                "tag": "kangaroos_young_ones",
+                "patterns": ["Kangaroos have _____ to carry their young ones."],
+                "responses": ["Pouches"]
+            },
+            {
+                "tag": "cheese_source",
+                "patterns": ["Cheese is made from _______."],
+                "responses": ["Milk"]
+            },
+            {
+                "tag": "sugar_taste",
+                "patterns": ["Taste of sugar is ______."],
+                "responses": ["Sweet"]
+            },
+            {
+                "tag": "tamarind_taste",
+                "patterns": ["Taste of tamarind is ______."],
+                "responses": ["Sour"]
+            },
+            {
+                "tag": "watch_worn_on",
+                "patterns": ["We wear a watch on our _______."],
+                "responses": ["Wrist"]
+            },
+            {
+                "tag": "math_addition",
+                "patterns": ["What is 10+4?"],
+                "responses": ["14"]
+            },
+            {
+                "tag": "goat_legs",
+                "patterns": ["A goat has ______ legs."],
+                "responses": ["4"]
+            },
+            {
+                "tag": "earth_natural_satellite",
+                "patterns": ["Earth has ____ natural satellite(s)."],
+                "responses": ["1"]
+            },
+            {
+                "tag": "tree_leaves_fall_season",
+                "patterns": ["The leaves of a tree fall during which season?"],
+                "responses": ["Autumn"]
+            },
+            {
+                "tag": "space_traveler",
+                "patterns": ["A person who goes to space is called an ________."],
+                "responses": ["Astronaut"]
+            },
+            {
+                "tag": "young_frog_name",
+                "patterns": ["A young frog is called a _______."],
+                "responses": ["Tadpole"]
+            },
+            {
+                "tag": "traffic_light_wait_color",
+                "patterns": ["Which colour of the traffic light indicates “wait”?"],
+                "responses": ["Yellow"]
+            },
+            {
+                "tag": "first_alphabet",
+                "patterns": ["Which is the first letter of the English alphabet?"],
+                "responses": ["A"]
+            },
+            {
+                "tag": "fire_put_out_person",
+                "patterns": ["Whom do we call to put out fire?"],
+                "responses": ["Fireman"]
+            },
+            {
+                "tag": "firemen_vehicle",
+                "patterns": ["Name the vehicle used by firemen?"],
+                "responses": ["Fire engine"]
+            },
+            {
+                "tag": "orange_vitamin_source",
+                "patterns": ["Orange is a source of which vitamin?"],
+                "responses": ["Vitamin C"]
+            },
+            {
+              "tag": "Created",
+              "patterns":["who created you", "for what I can use you?","who invented you?"],
+              "responses":["Hello I am Factogram.ai, build with ❤︎ by Shubham & Sahil, I can help you to enhance your General Knowledge!"]
+            }
+    ]
+  }
